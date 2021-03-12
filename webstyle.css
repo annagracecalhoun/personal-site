@@ -1,0 +1,214 @@
+
+p, li  {
+    font-family: Monaco, Verdana, Helvetica !important; 
+    font-size: .85em !important; 
+}
+
+#topBar {
+     font-family: Monaco, Verdana, Helvetica; 
+}
+
+h2, h3 {
+     font-family: Monaco, Verdana, Helvetica; 
+}
+
+.hobbies{
+    color:  #007bb5;
+    font-weight: 500; 
+}
+
+.resumeItem {
+    font-family: Monaco, Verdana, Helvetica !important; 
+}
+
+.subpage {
+    font-family: Monaco, Verdana, Helvetica;  
+    color:  #9bb9e8;
+    font-weight: 700; 
+}
+
+#contactFooter {
+    font-family: Monaco, Verdana, Helvetica; 
+    font-size: .85em; 
+    background-color: #9bb9e8; 
+    color: white; 
+    overflow: hidden; 
+    margin-top: 15px; 
+}
+
+/* Top navigation bar */ 
+
+.topnav {
+    background-color: azure; 
+    overflow: hidden; 
+}
+
+.topnav a {
+    float: left; 
+    color: #f1bdff; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 17px; 
+    font-family: Monaco, Verdana, Helvetica;   
+    font-weight: 700; 
+}
+
+.topnav p {
+    float: right; 
+    color: #9bb9e8; 
+    padding: 14px 16px; 
+    margin: auto; 
+    text-align: center; 
+    text-decoration: none;
+    font-size: 17px; 
+    font-family: Monaco, Verdana, Helvetica;   
+    font-weight: 700; 
+}
+
+.topnav a:hover {
+    background-color: #9bb9e8;
+    color: white; 
+}
+
+.topnav a.active {
+    background-color: #cbeef7;  
+    color: #f1bdff;
+}
+
+/* LinkedIn Icon */ 
+
+.fa {
+    margin: 10px; 
+    padding: 5px; 
+    font-size: 30px; 
+    width: 20px; 
+    text-align: center; 
+    text-decoration: none;
+    border-radius: 50%; 
+}
+
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+#topAboutMe #profilePic {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 375px;
+    margin-right: 30px; 
+
+}
+
+#topAboutMe {
+    display: flex;
+   align-items:center;
+    justify-content: space-around;
+    border-bottom: 5px solid #f1bdff;
+    
+}
+
+
+/* Breaker Bar in About Me */ 
+
+#aboutMeBreaker {
+    border-top: 5px solid #f1bdff; 
+    background-color: azure; 
+    overflow: auto; 
+    width = 100%; 
+    display: flex;
+    justify-content: space-around;
+}
+
+#aboutMeBreaker .breakImg {
+    height: 150px; 
+    width: auto; 
+    margin-right: 20px; 
+    margin-left: 20px; 
+}
+
+#linkedIn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 5px dotted #f1bdff;  
+}
+
+.hobbyBar {
+    max-height: 150px; 
+    width: auto; 
+    background-color: azure;
+    width = 100%; 
+    display: flex;
+    overflow: auto; 
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15px; 
+    padding-top: 15px; 
+}
+
+#artBar {
+    background-color: azure; 
+    overflow: auto; 
+    width = 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#artBar img {
+    width: auto;
+    height: 250px;
+    padding-bottom: 10px; 
+    padding-top: 10px; 
+}
+
+
+#bookList {
+    list-style-type: square;
+    margin-left: 0;
+    padding-left: 30px;
+}
+
+.workItems {
+    background-color: azure;
+    color:  #007bb5;
+}
+
+.titleDate p:first-of-type{
+    float: left; 
+}
+
+.titleDate p:last-of-type{
+    float: right; 
+}
+
+.titleDate {
+    overflow: auto; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin-top: -15px; 
+    margin-bottom: -15px; 
+    line-height: 0px;
+}
+
+
+.resumeList {
+  list-style-type: square;
+  margin-left: 0;
+  padding-left: 30px;  
+}
+
+a {
+  font-family: Monaco, Verdana, Helvetica;      
+}
+
+#dominionPiece {
+    display:block;
+    border-style:none;
+}
